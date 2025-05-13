@@ -1,0 +1,14 @@
+
+An employee could be staff, a professor, or an administrator.
+
+A professor may also be an administrator.
+
+Staff employees have a work-level classification, such as Level I or Level II.
+
+Only professors can chair a department. A department is chaired by only one professor.
+
+Only professors can serve as the dean of a college. Each of the university's colleges is served by one dean.
+
+A professor can teach many classes.
+
+Administrators have a position title.

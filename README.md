@@ -1,7 +1,13 @@
 
-# Clinic Data Model
+# Data Model Projects
 
-This project presents a relational data model for managing healthcare clinic, including appointments, billing, payments, diagnoses, and treatments. The model is based on real-world business rules and is intended for use in clinical or insurance system design.
+This repository contains two relational data modeling projects designed using Crow's Foot ERD notation and implemented in SQL. Each project is based on real-world business logic and focuses on clarity, referential integrity, and normalized structure.
+
+---
+
+## Clinic Data Model
+
+A relational data model for managing a healthcare clinic, including appointments, billing, payments, diagnoses, and treatments. This model is ideal for clinical and insurance systems requiring billing, coverage, and treatment tracking.
 
 ### Business Overview
 
@@ -11,20 +17,30 @@ This project presents a relational data model for managing healthcare clinic, in
 - Diagnoses are associated with visits and generate treatments.
 - Insurance companies process claims that can cover one or more bills.
 
-> You can find the business rules here: ['clinic_business_rules'] (./clinic_business_rules.txt)
+> Business Rules: [clinic_business_rules.txt](./clinic_business_rules.txt)  
+> ERD Diagram: [clinic_data_model.jpeg](./clinic_data_model.jpeg)  
+> SQL Schema: [clinic_data_model.sql](./clinic_data_model.sql)
 
-### Entity-Relationship Diagram
+---
 
-> [View the Crow's Foot ERD](./clinic_data_model.jpeg)
+## College Data Model
 
-### SQL Schema
+A relational model for representing employees, faculty, administration, departments, colleges, and university hierarchy. Useful in academic administration systems.
 
-The schema defines all entities and their relationships using `INT`, `FLOAT`, and other basic types. It uses foreign keys to maintain data integrity.
+### Business Overview
 
-> You can find the full SQL script here: [`clinic_data_model.sql`](./clinic_data_model.sql)
+- An employee can be a staff member, professor, or administrator.
+- Professors can also be administrators.
+- Professors may teach classes, chair departments, and serve as deans of colleges.
+- Departments are linked to colleges; colleges are part of a university.
+- Administrators have defined position titles.
+
+> Business Rules: [college_business_rules.txt](./college_business_rules.txt)  
+> ERD Diagram: [college_data_model.jpeg](./college_data_model.jpeg)  
+> SQL Schema: [college_data_model.sql](./college_data_model.sql)
 
 ---
 
 **Author:** Luciana Junqueira  
-**Tools:** LucidSpark, SQL
-
+**Tools:** LucidSpark, SQL  
+**Folder:** `data-model-projects/`
