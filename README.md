@@ -1,7 +1,7 @@
 
 # Clinic Data Model
 
-This project presents a relational data model for managing healthcare clinic, including appointments, billing, payments, diagnoses, and treatments. The model is based on real-world business rules and is intended for use in clinical or insurance system design.
+This project presents a relational data model for managing a healthcare clinic, including appointments, billing, payments, diagnoses, and treatments. The model is based on real-world business rules and is intended for use in clinical or insurance system design.
 
 ### Business Overview
 
@@ -11,7 +11,7 @@ This project presents a relational data model for managing healthcare clinic, in
 - Diagnoses are associated with visits and generate treatments.
 - Insurance companies process claims that can cover one or more bills.
 
-> You can find the business rules here: ['clinic_business_rules'] (./clinic_business_rules.txt)
+> You can find the business rules here: ['clinic_business_rules'](./clinic_business_rules.txt)
 
 ### Entity-Relationship Diagram
 
