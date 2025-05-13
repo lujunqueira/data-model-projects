@@ -44,3 +44,5 @@ A relational model for representing employees, faculty, administration, departme
 **Author:** Luciana Junqueira  
 **Tools:** LucidSpark, SQL  
 **Folder:** `data-model-projects/`
+
+
