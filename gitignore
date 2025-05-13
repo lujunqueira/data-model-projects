@@ -1,0 +1,23 @@
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor temp files
+*.swp
+*.tmp
+*.bak
+*.log
+
+# VSCode or JetBrains IDE settings
+.vscode/
+.idea/
+
+# Optional: ignore ERD exports or modeling backups
+*.pdf
+*.bkp
+*.erx
+*.drawio
+
+# Uncomment if you want to exclude SQL files (not recommended unless auto-generated)
+# *.sql
